@@ -1,0 +1,185 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+
+  .top-wrapper {
+    background-position: top;
+    height: 900px;
+    padding-top: 20px;
+  }
+
+  .top-wrapper h1{
+    font-size : 32px;
+    margin-top: 500px;
+    line-height : 36px;
+  }
+
+  .heading h2{
+    font-size : 20px;
+  }
+
+  .mid{
+  height: 650px;
+  background-size: 2500px;
+}
+
+.layanan {
+  width: 50%;
+  margin-bottom: 50px;
+  background-size: cover;
+}
+
+.bottom{
+  height: 850px;
+}
+
+.bottom img{
+  margin: 50px 120px;
+}
+
+.bottom-text{
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 0;
+  padding-bottom: -300px;
+}
+
+  .logo-footer {
+    height: 100px;
+    float: none;
+  }
+
+  .footer-1 {
+    float:left;
+  }
+
+  .contact, .information {
+    padding: 10px 30px 30px 30px;
+    width: 240px;
+    float: none;
+  }
+
+  .social {
+    width: 210px;
+    margin-bottom: 30px;
+    padding: 0 0 0 30px;
+  }
+
+  .app-store {
+    width: 245px;
+  }
+
+  .footer-2 {
+    padding-top: 10px;
+  }
+
+  footer {
+    height: 530px;
+  }
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+  .logo-footer {
+    height: 100px;
+  }
+
+  .top-wrapper {
+    background-position: top;
+    background-size: 500px;
+    height: 800px;
+    padding-top: 20px;
+  }
+
+  .header-point {
+    display: none;
+  }
+
+  .header-btn a {
+    display: inline-block;
+    line-height: 30px;
+    margin-top:15px;
+    font-size: 12px;
+    background-color: #f3764a;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .header-btn a:hover {
+    opacity: 0.7;
+  }
+
+  .menu-icon {
+    display: block;
+    margin-right : -25px;
+  }
+
+  .top-wrapper h1{
+    margin-top: 400px;
+    font-size : 24px;
+    line-height : 36px;
+  }
+
+  .top-wrapper p{
+    font-size : 14px;
+    line-height : 20px;
+  }
+
+  .top-wrapper {
+    text-align : left;
+  }
+
+  .button {
+    width : 100%;
+  }
+
+  .input{
+    display : none;
+  }
+
+  .mid{
+  height: 1200px;
+  background-size: 1000px;
+  background-repeat: repeat;
+  }
+
+  .layanan {
+    width: 100%;
+  }
+
+  .bottom{
+    height: 900px;
+  }
+
+  .bottom img{
+    margin: 50px 30px;
+  }
+
+  .bottom-text{
+    margin: 0 100px;
+    padding-bottom: -300px;
+  }
+
+  footer {
+    height: 750px;
+  }
+
+  .footer-1 p, .footer-2 p {
+    font-size: 18px;
+  }
+
+  .footer-1 li, .footer-2 li {
+    font-size: 12px;
+  }
+
+  .footer-2 {
+    padding-top: 0;
+  }
+
+  .information {
+    padding: 0 30px 30px 30px;
+
+/*  footer {
+    margin-top: 50px;
+  }*/
+
+}
